@@ -1,0 +1,106 @@
+--------------------------------------------------------
+[2023-07-25 08:37:20 -0300] pkgacct started.
+[2023-07-25 08:37:20 -0300] pkgacct version 10 - user : juris269 - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 0 - archive version: 4 - running with uid 0
+[2023-07-25 08:37:20 -0300] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 128 --rsyncable' to compress archives
+[2023-07-25 08:37:20 -0300] pkgacct working dir : /home1/794394.BIN_ADMIN_CPANEL_BACKUP_PL__.247c0300.tmp/backup-7.25.2023_08-37-20_juris269
+QUOTAS HAVE BEEN VERIFIED.  YOUR DATA IS NOW BEING BACKED UP!
+        block_curr	788972
+        block_soft	104857600
+        block_hard	104857600
+        block_timelimit	0
+        inode_curr	12984
+        inode_soft	0
+        inode_hard	0
+        inode_timelimit	0
+[2023-07-25 08:37:20 -0300] Copying Reseller Config...[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Copying Suspension Info (if needed)...[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Copying installed SSL certificates and keys...[2023-07-25 08:37:20 -0300] Performing “ApacheTLS” component....
+[2023-07-25 08:37:20 -0300] Completed “ApacheTLS” component.
+[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Copying DKIM keys....[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Copying Bandwidth Data....[2023-07-25 08:37:20 -0300] Performing “Bandwidth” component....
+Summary databases … done!
+[2023-07-25 08:37:20 -0300] Completed “Bandwidth” component.
+[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Copying Dns Zones.......juriscontent.com.br...[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Copying Mail files....[2023-07-25 08:37:20 -0300] Performing “MailConfig” component....
+[2023-07-25 08:37:20 -0300] Completed “MailConfig” component.
+[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Copying proftpd file....[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Performing “Logs” component....
+...log file sizes [792272 byte(s)]......juriscontent.com.br-ssl_log......juriscontent.com.br-bytes_log......juriscontent.com.br...[2023-07-25 08:37:20 -0300] Completed “Logs” component.
+[2023-07-25 08:37:20 -0300] Copy userdata...[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Copy custom virtualhost templates...[2023-07-25 08:37:20 -0300] Done
+[2023-07-25 08:37:20 -0300] Copying mailman lists and archives....Done copying mailman lists and archives.
+[2023-07-25 08:37:20 -0300] Copying homedir.............
+[2023-07-25 08:37:22 -0300] Done
+[2023-07-25 08:37:22 -0300] Fixing up EA4 .htaccess blocks: /home1/juris269/public_html/.htaccess  Done.
+[2023-07-25 08:37:22 -0300] Performing “Postgresql” component....
+[2023-07-25 08:37:22 -0300] Completed “Postgresql” component.
+[2023-07-25 08:37:22 -0300] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2023-07-25 08:37:22 -0300] Determining mysql dbs...[2023-07-25 08:37:22 -0300] ...mysqldump version: 5.7.23...[2023-07-25 08:37:22 -0300] ...mysql version: 5.7...[2023-07-25 08:37:22 -0300] Saving mysql privs...[2023-07-25 08:37:22 -0300] Done
+[2023-07-25 08:37:22 -0300] Saving mysql authentication information...[2023-07-25 08:37:22 -0300] Done
+[2023-07-25 08:37:22 -0300] Storing MySQL databases...[2023-07-25 08:37:22 -0300] Storing database juris269_wp268
+[2023-07-25 08:37:28 -0300] Done
+[2023-07-25 08:37:28 -0300] ...Done
+[2023-07-25 08:37:28 -0300] ...Done
+[2023-07-25 08:37:28 -0300] Completed “Mysql” component.
+[2023-07-25 08:37:28 -0300] Performing “MysqlRemoteNotes” component....
+Load watching resumed due to SIGUSR2
+[2023-07-25 08:37:28 -0300] Completed “MysqlRemoteNotes” component.
+[2023-07-25 08:37:28 -0300] Performing “CpUserFile” component....
+[2023-07-25 08:37:28 -0300] Completed “CpUserFile” component.
+[2023-07-25 08:37:28 -0300] Performing “Cron” component....
+[2023-07-25 08:37:28 -0300] No readable crontab file found.
+[2023-07-25 08:37:28 -0300] Completed “Cron” component.
+[2023-07-25 08:37:28 -0300] Performing “Quota” component....
+[2023-07-25 08:37:28 -0300] Completed “Quota” component.
+[2023-07-25 08:37:28 -0300] Performing “Integration” component....
+[2023-07-25 08:37:28 -0300] Completed “Integration” component.
+[2023-07-25 08:37:28 -0300] Performing “AuthnLinks” component....
+[2023-07-25 08:37:28 -0300] Completed “AuthnLinks” component.
+[2023-07-25 08:37:28 -0300] Performing “APITokens” component....
+[2023-07-25 08:37:28 -0300] Completed “APITokens” component.
+[2023-07-25 08:37:28 -0300] Performing “DNSSEC” component....
+[2023-07-25 08:37:28 -0300] Completed “DNSSEC” component.
+[2023-07-25 08:37:28 -0300] Performing “Custom” component....
+[2023-07-25 08:37:28 -0300] No custom components to perform.
+[2023-07-25 08:37:28 -0300] Completed “Custom” component.
+[2023-07-25 08:37:28 -0300] Performing “AutoSSL” component....
+[2023-07-25 08:37:28 -0300] Completed “AutoSSL” component.
+[2023-07-25 08:37:28 -0300] Storing Subdomains....
+[2023-07-25 08:37:28 -0300] Done
+[2023-07-25 08:37:28 -0300] Storing Parked Domains....
+[2023-07-25 08:37:28 -0300] Done
+[2023-07-25 08:37:28 -0300] Storing Addon Domains....
+[2023-07-25 08:37:28 -0300] Performing “Password” component....
+[2023-07-25 08:37:28 -0300] Completed “Password” component.
+[2023-07-25 08:37:28 -0300] Performing “DigestShadow” component....
+[2023-07-25 08:37:28 -0300] Completed “DigestShadow” component.
+[2023-07-25 08:37:28 -0300] Copying shell.......[2023-07-25 08:37:28 -0300] Done
+[2023-07-25 08:37:28 -0300] Performing “WebCalls” component....
+[2023-07-25 08:37:28 -0300] Completed “WebCalls” component.
+[2023-07-25 08:37:28 -0300] Performing “BrandCustomizations” component....
+[2023-07-25 08:37:28 -0300] Completed “BrandCustomizations” component.
+[2023-07-25 08:37:28 -0300] Performing “PublicContact” component....
+[2023-07-25 08:37:28 -0300] Completed “PublicContact” component.
+[2023-07-25 08:37:28 -0300] Performing “MailLimits” component....
+[2023-07-25 08:37:28 -0300] Completed “MailLimits” component.
+[2023-07-25 08:37:28 -0300] Performing “LinkedNodes” component....
+[2023-07-25 08:37:28 -0300] Completed “LinkedNodes” component.
+[2023-07-25 08:37:28 -0300] Creating Archive ........................
+[2023-07-25 08:38:25 -0300] Done
+[2023-07-25 08:38:25 -0300] pkgacctfile is: /home1/794394.BIN_ADMIN_CPANEL_BACKUP_PL__.247c0300.tmp/backup-7.25.2023_08-37-20_juris269.tar.gz
+[2023-07-25 08:38:26 -0300] md5sum is: 1a738655287c43b2e397e917de6026ab
+[2023-07-25 08:38:26 -0300] 
+[2023-07-25 08:38:26 -0300] size is: 322454125
+[2023-07-25 08:38:26 -0300] 
+[2023-07-25 08:38:26 -0300] homesize is: 867811328
+[2023-07-25 08:38:26 -0300] 
+[2023-07-25 08:38:26 -0300] homefiles is: 13043
+[2023-07-25 08:38:27 -0300] 
+[2023-07-25 08:38:27 -0300] mysqlsize is: 197379275
+[2023-07-25 08:38:27 -0300] pkgacct completed
+pkgacctfile is: /home1/juris269/backup-7.25.2023_08-37-20_juris269.tar.gz
+--------------------------------------------------------
